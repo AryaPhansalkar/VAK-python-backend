@@ -2,7 +2,6 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 import joblib
 from transformers import pipeline
-import threading
 
 # Initialize Flask app
 app = Flask(__name__)
